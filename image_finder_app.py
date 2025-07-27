@@ -1,4 +1,5 @@
 # image_finder_app.py
+st.set_page_config(page_title="AI Image Finder", page_icon="🖼️", layout="wide")
 
 import streamlit as st
 from duckduckgo_search import DDGS
