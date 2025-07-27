@@ -3,4 +3,6 @@ primaryColor = "#f63366"
 backgroundColor = "#0e1117"
 secondaryBackgroundColor = "#262730"
 textColor = "#FAFAFA"
-font = "sans serif"
+font = "sans serif
+OPENAI_API_KEY = "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"
+
