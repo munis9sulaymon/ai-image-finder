@@ -1,4 +1,8 @@
 # image_finder_app.py
+git add .
+git commit -m "Fix: moved streamlit import before set_page_config"
+git push
+
 st.set_page_config(page_title="AI Image Finder", page_icon="🖼️", layout="wide")
 
 import streamlit as st
