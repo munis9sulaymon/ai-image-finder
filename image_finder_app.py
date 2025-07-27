@@ -1,20 +1,15 @@
 # image_finder_app.py
-git add .
-git commit -m "Fix: moved streamlit import before set_page_config"
-git push
 
+import streamlit as st  # ✅ Import FIRST
+from duckduckgo_search import DDGS  # Other imports next
+
+# ✅ Set up the page config AFTER the import
 st.set_page_config(page_title="AI Image Finder", page_icon="🖼️", layout="wide")
 
-import streamlit as st
-from duckduckgo_search import DDGS
-
-# Streamlit app title
 st.title("🖼️ AI Image Finder")
 
-# User input for search query
 query = st.text_input("What image are you looking for?")
 
-# If user typed something
 if query:
     st.info("🔍 Searching DuckDuckGo for images...")
 
